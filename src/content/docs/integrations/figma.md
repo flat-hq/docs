@@ -1,0 +1,19 @@
+# Figma
+
+## Overview
+
+Flat's [Figma](https://www.figma.com/) integration lets you embed Figma designs directly into topics for easier reference.
+
+## Step-by-step
+
+### Setting up the integration
+
+There's no setup required. Flat automatically detects Figma URLs and displays the designs as embedded content.
+
+### Embedding a Figma design
+
+In the [topic description editor](../topics/topic-descriptions.md), just paste a URL to a Figma design. Flat automatically displays it as embedded content below the description.
+
+{% hint style="warning" %}
+Not seeing the design appear? Ensure you've set [Figma's sharing settings](https://help.figma.com/hc/en-us/articles/360040531773-Share-files-and-prototypes) appropriately for the link.&#x20;
+{% endhint %}

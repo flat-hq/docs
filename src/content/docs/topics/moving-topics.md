@@ -1,0 +1,35 @@
+# Moving topics
+
+## Overview
+
+As your team works on topics, move them along your workflow to track progress.
+
+Moving a topic is as simple as dragging the card from one workflow stage to another. You can move multiple topics at the same time, too: while viewing a workspace, launch _Quick edit_ by pressing <mark style="color:orange;background-color:yellow;">`E`</mark> or holding <mark style="color:orange;background-color:yellow;">`Shift`</mark>, click to select topics, then drag one of them to move all of them together.
+
+After a topic is done, you'll want to [archive](archiving-and-trashing.md) it to keep your workspace uncluttered.
+
+## Step-by-step
+
+### Moving a topic along a workflow
+
+To move a topic along a workflow:
+
+* _While on the topic's page:_ Select a workflow stage from the dropdown at the top of the page.
+* _While in the workspace:_ Drag the topic's card from one workflow stage to another.
+
+### Moving a topic between workspaces
+
+To move a topic from one workspace to another:
+
+* _While on the topic's page:_ Click the ellipsis menu in the upper right corner, and choose _Move to_, then select the destination workspace and stage.
+* _While in the workspace:_ Hover over the topic's card, click the ellipsis menu in the corner of the card, and choose _Move to_, then select the destination workspace and stage.
+
+{% hint style="warning" %}
+Topics in a private workspace can't be moved to another workspace. That ensures topics and conversations in a private workspace remain private!
+{% endhint %}
+
+### Moving multiple topics at the same time
+
+To move multiple topics at the same time, visit a workspace, launch _Quick edit_ by pressing <mark style="color:orange;background-color:yellow;">`E`</mark> or holding <mark style="color:orange;background-color:yellow;">`Shift`</mark>, and click cards to select the topics. Then drag any of the selected topics to move all the ones you selected.
+
+See also [selecting-and-editing-topics.md](selecting-and-editing-topics.md "mention").

@@ -1,0 +1,20 @@
+# Appearance
+
+## Overview
+
+Flat has both light and dark themes. You can change your theme by clicking your avatar in the upper right corner and choosing _Settings_, then visiting the [_Personal Settings | Appearance_](https://go.flat.app/settings/appearance) section.
+
+## Step-by-step
+
+### Choosing your theme
+
+Flat has two appearance themes:
+
+* Light mode
+* Dark mode
+
+To change your theme, visit [_Personal Settings | Appearance_](https://go.flat.app/settings/appearance).
+
+### Following your operating system
+
+You can tell Flat to follow your operating system's light/dark preference. Visit [_Personal Settings | Appearance_](https://go.flat.app/settings/appearance) and select _Follow system_ from the dropdown.

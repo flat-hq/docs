@@ -1,0 +1,13 @@
+# Introduction
+
+**Welcome to Flat! 👋**
+
+Flat is a new kind of teamwork app designed to be the simplest way for your team to get organized and stay aligned, with no frustration and no complex setup.
+
+{% hint style="info" %}
+**Eager to jump right in?** Follow our [getting started guide](welcome/getting-started.md) and get your team set up in less than 5 minutes.
+{% endhint %}
+
+Flat is designed to be deeply intuitive and familiar right out-of-the-box. That said, we've created this guide to help you get the most out of Flat and to serve as reference if you're unsure about anything.
+
+If you have ideas on what we can do better, we'd love to hear your [feedback](misc/feedback.md).

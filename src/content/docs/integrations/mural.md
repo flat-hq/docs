@@ -1,0 +1,15 @@
+# Mural
+
+## Overview
+
+Flat's [Mural](https://mural.co) integration lets you embed murals directly into topics for easier reference.
+
+## Step-by-step
+
+### Setting up the integration
+
+There's no setup required. Flat automatically detects Mural embedding URLs and displays the murals as embedded content.
+
+### Embedding a mural
+
+[Configure the mural to allow embedding](https://support.mural.co/s/article/embed-view-only-murals), then just copy the embedding URL and paste it into the [topic description editor](../topics/topic-descriptions.md). Flat automatically displays the mural as embedded content below the description.

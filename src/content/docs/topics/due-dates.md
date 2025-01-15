@@ -1,0 +1,24 @@
+# Due dates
+
+## Overview
+
+You can assign a due date to a topic. When a topic's due date is today or in the past, it's highlighted in red.
+
+Topic due dates are completely optional. You can assign due dates to some topics and not others, and you can fully disable due dates in workspaces where it's not helpful to your team's work style.
+
+## Step-by-step
+
+### Changing a topic's due date
+
+To change a topic's due date:
+
+* _While on the topic's page:_ Select a due date from the dropdown at the top of the page.
+* _While in the workspace:_ Use [_Quick edit_](selecting-and-editing-topics.md).
+
+### Enabling or disabling due dates in a workspace
+
+See [#configuring-workspace-options](../workspaces/managing-workspaces.md#configuring-workspace-options "mention").
+
+### Viewing topic due dates as a calendar
+
+See [workspace-views.md](../workspaces/workspace-views.md "mention").

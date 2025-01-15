@@ -1,0 +1,41 @@
+# Archiving and trashing
+
+## Overview
+
+Flat has two locations for topics that are no longer being worked on: the **archive** and the **trash**.
+
+The archive is where to put topics after they're completed. Each workspace has its own archive. Moving topics there helps keep your workspace uncluttered. Archived topics are still available in [search](../finding-and-organizing-topics/search-and-history.md) and by viewing the [workspace's archive](../workspaces/archive.md).
+
+The trash is for topics you don't expect to refer to again, like duplicates or ones that were created by mistake. Trashed topics aren't available in search, but they're still visible if you navigate to the topic's page directly.
+
+## Step-by-step
+
+### Archiving a topic
+
+To archive a topic:
+
+* _While on the topic's page:_ Click the ellipsis menu in the upper right corner, and choose _Archive_.
+* _While in the workspace:_ Use [_Quick edit_](selecting-and-editing-topics.md). Or, hover over the topic's card, click the ellipsis menu in the corner of the card, and choose _Archive._
+
+### Unarchiving a topic
+
+To unarchive a topic, visit the topic's page and click _Unarchive_ in the upper left corner of the page.
+
+{% hint style="info" %}
+When you unarchive a topic, it'll be put back in the stage it was in at the time it was archived.
+{% endhint %}
+
+### Moving a topic to the trash
+
+To move a topic to the trash:
+
+* _While on the topic's page:_ Click the ellipsis menu in the upper right corner, and choose _Move to trash_.
+* _While in the workspace:_ Use [_Quick edit_](selecting-and-editing-topics.md). Or, hover over the topic's card, click the ellipsis menu in the corner of the card, and choose _Move to trash._
+
+### Untrashing a topic
+
+To untrash a topic, visit the topic's page and click _Untrash_ in the upper right corner of the page.
+
+{% hint style="info" %}
+When you untrash a topic, it'll be put back in the stage it was in at the time it was trashed.
+{% endhint %}

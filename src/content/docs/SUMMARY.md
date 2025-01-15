@@ -1,0 +1,81 @@
+# Table of contents
+
+## Welcome
+
+* [Introduction](README.md)
+* [Getting started](welcome/getting-started.md)
+* [Core concepts](welcome/core-concepts.md)
+* [Help and support](welcome/help-and-support.md)
+
+## Organization setup <a href="#setup" id="setup"></a>
+
+* [Managing your organization](setup/managing-your-organization.md)
+* [Managing team members](setup/managing-team-members.md)
+* [Importing data](setup/importing-data.md)
+
+## Account setup <a href="#account" id="account"></a>
+
+* [Personal profile](account/personal-profile.md)
+* [Appearance](account/appearance.md)
+* [Notifications](account/notifications.md)
+
+## Workspaces
+
+* [Managing workspaces](workspaces/managing-workspaces.md)
+* [Workspace visibility](workspaces/workspace-visibility.md)
+* [Workflow stages](workspaces/workflow-stages.md)
+* [Workspace views](workspaces/workspace-views.md)
+* [Archive](workspaces/archive.md)
+
+## Topics
+
+* [Creating topics](topics/creating.md)
+* [Selecting and editing topics](topics/selecting-and-editing-topics.md)
+* [Moving topics](topics/moving-topics.md)
+* [Topic ownership](topics/ownership.md)
+* [Labels](topics/labels.md)
+* [Due dates](topics/due-dates.md)
+* [Topic sizing](topics/sizing.md)
+* [Topic prioritization](topics/prioritization.md)
+* [Topic descriptions](topics/topic-descriptions.md)
+* [Checklists](topics/checklists.md)
+* [Attachments](topics/attachments.md)
+* [Code](topics/code.md)
+* [Archiving and trashing](topics/archiving-and-trashing.md)
+* [Change history](topics/change-history.md)
+* [Subscribing to notifications](topics/subscribing-to-notifications.md)
+
+## Comments and Discussion <a href="#discussion" id="discussion"></a>
+
+* [Topic threads](discussion/threads.md)
+* [Blockers](discussion/blockers.md)
+
+## Finding and organizing topics
+
+* [Personal planner](finding-and-organizing-topics/personal-planner.md)
+* [Threads view](finding-and-organizing-topics/threads-view.md)
+* [Workspace filter](finding-and-organizing-topics/workspace-filter.md)
+* [Search and history](finding-and-organizing-topics/search-and-history.md)
+* [Flexible topic hierarchies](finding-and-organizing-topics/flexible-topic-hierarchies.md)
+
+## Integrations
+
+* [Discord](integrations/discord.md)
+* [Figma](integrations/figma.md)
+* [GitHub](integrations/github.md)
+* [Google Drive](integrations/google-drive.md)
+* [Loom](integrations/loom.md)
+* [Miro](integrations/miro.md)
+* [Mural](integrations/mural.md)
+* [Slack](integrations/slack.md)
+* [Zapier](integrations/zapier.md)
+
+## Developers
+
+* [GraphQL API](developers/api.md)
+
+## Miscellaneous <a href="#misc" id="misc"></a>
+
+* [Security](misc/security.md)
+* [FAQ](misc/faq.md)
+* [Feedback](misc/feedback.md)

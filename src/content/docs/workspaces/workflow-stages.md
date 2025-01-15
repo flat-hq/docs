@@ -1,0 +1,67 @@
+# Workflow stages
+
+## Overview
+
+Each workspace has a sequence of workflow stages that topics move through over their life cycle from start to finish, like _To do_ ⇒ _In progress_ ⇒ _Done_. They're displayed on the workspace as columns of topic cards, or as separate table sections if you're [viewing the workspace as a list](workspace-views.md).
+
+{% hint style="info" %}
+To get the most out of Flat, we recommend experimenting and changing your workflow stages over time to reflect your team's work process. They're not set in stone!
+{% endhint %}
+
+### Key concepts
+
+#### Sequence of steps
+
+Think of your workspace's workflow stages as the high-level steps a topic should go through from start to finish.
+
+Generally, topics should move through your stages forward one-at-a-time. But that's not a requirement by any means! Feel free to create stages that some topics skip.
+
+{% hint style="info" %}
+If you have stages that _many_ topics skip, consider whether it'd be clearer for your team to [create an entirely separate workspace](managing-workspaces.md) with its own workflow.
+{% endhint %}
+
+#### The "completed" stage
+
+Flat treats the last stage in your workspace as special. Moving a topic there marks it as _completed._
+
+### Common patterns
+
+There's no one best way to set up your workspace's workflow stages. It's a balancing act between keeping your workspace small and easy to scan while also reflecting your team's process at a sufficient level of detail to be useful. We encourage you to start simple and experiment over time to find what works for your team! That said, here are some examples that may be helpful.
+
+#### Generic workflow
+
+_To Do_ ⇒ _In Progress_ ⇒ _Done_
+
+If your team is new and small, this simple generic workflow is a fine place to begin! You can always add more stages over time as you discover the need for them.
+
+#### Software development workflow
+
+_To Do_ ⇒ _Design_ ⇒ _Development_ ⇒ _QA_ ⇒ _Done_
+
+For a software development team, separating design, development, and testing helps make it clearer how close to completion a topic really is. And for many software teams, different people work exclusively in each of those stages, e.g., a software tester would only work on topics in the _QA_ stage.
+
+#### Projects or "epics" workflow
+
+_To Do_ ⇒ _Research_ ⇒ _Design_ ⇒ _Development_ ⇒ _Rollout_ ⇒ _Impact Review_ ⇒ _Done_
+
+Your team might be executing several large, cross-functional projects, the kind that may take weeks or months to complete. Some teams call these sorts of projects "epics". For this kind of work, certain stages are often helpful to more clearly capture where the work stands, like _Research_, for better understanding customer problems, and _Impact Review_, to measure and assess how well the project's deliverables were received by customers.
+
+## Step-by-step
+
+### Change a workspace's stages
+
+To edit a workspace's stages, just visit the workspace and click the workspace's name to open the _Workspace setup dialog_.
+
+You can drag and drop stages to change their order. To add a stage, click the _+_ button, and to delete a stage, click the trash icon beside the stage name.
+
+{% hint style="info" %}
+Anyone with access to the workspace can edit the workspace's stages. It's not restricted to users with the **Admin** role.
+{% endhint %}
+
+{% hint style="info" %}
+Only empty stages can be deleted, and a workspace must have at least two stages.
+{% endhint %}
+
+{% hint style="info" %}
+Flat doesn't support _hiding_ a stage from view. If you feel tempted to hide a stage, consider just deleting it and using lightweight [assignable topic threads](../discussion/threads.md) to model it instead.
+{% endhint %}

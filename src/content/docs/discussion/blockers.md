@@ -1,0 +1,72 @@
+# Blockers
+
+## Overview
+
+Blockers are one of Flat's superpowers, letting anyone record, assign, and discuss what's stopping progress, so there's never a question like "is this blocked?", "what's it blocked on?", "who's responsible for addressing it?", or "what's the latest update?".
+
+{% hint style="info" %}
+If you're coming to Flat from another tool, you may be accustomed to thinking of "blocking" merely as a relationship between topics. While Flat does support that, read on to see how Flat's approach has _extra_ capabilities that are both lighter weight and more flexible and practical.
+{% endhint %}
+
+### Key concepts
+
+In Flat, a **blocker** is a special type of [topic thread](threads.md) indicating that progress on a topic is stuck.
+
+Like a regular topic thread, you can assign a blocker to a teammate to make them accountable for following up. It'll be shown prominently in their [threads view](../finding-and-organizing-topics/threads-view.md). And you can resolve the blocker when it's no longer an issue.
+
+Unlike regular topic threads, blockers have additional capabilities:
+
+* A blocker has a brief description summarizing what's stopping the topic from progressing. The description can be either a short snippet of text, like an email subject line, or it can be a link to another topic.
+* When a topic has a blocker, its brief description is shown prominently in the workspace on the topic's card. That makes it clear to everyone on the team not only _that_ a topic is blocked but also _why_.
+
+{% hint style="info" %}
+Because Flat displays blockers prominently, create them judiciously and only when progress on a topic is truly _stuck_. That way, when you and your team see a blocker, you'll know it demands your attention to resolve.
+{% endhint %}
+
+### Use cases
+
+Blockers are designed to be lightweight and flexible and can model all sorts of day-to-day activities on your team. Below are a few examples.
+
+{% hint style="info" %}
+These are just a few examples of how your team could use blockers. It's OK to experiment, find the practices that align with how your team likes to work, and evolve your practices over time.
+{% endhint %}
+
+#### Progress is stuck on a critical issue
+
+Imagine a junior team member is working on a topic and discovers a major gap in the plan. They can't continue work until the gap is addressed. They open a blocker on the topic with a brief description like "Need to fix gap in the project plan", add a comment with additional details, and assign it to a more senior member of the team. Once the plan is fixed, they resolve the blocker.
+
+#### Critical dependency between topics
+
+Imagine a team is working on a new product feature. They've already developed it, but they don't want to share it publicly until they file a patent application, which is being tracked as a separate topic. So, the team creates a blocker on the product feature topic linked to the patent application topic. That way, it's clear to everyone on the team why the product feature hasn't been released publicly yet.
+
+#### Responses from a third party
+
+Imagine a team member is working on a topic to address an issue that's affecting a particular customer. They need some clarification from the customer to properly address the issue, so they reach out to get that information. In the meantime, they add a blocker to the topic with a brief description like "Waiting on customer to provide clarification". Now it's clear to their manager (and the entire team!) why the topic isn't moving forward.
+
+#### External constraints
+
+Imagine a software developer is working on a technical investment to switch from one third-party library to a new one that's a better fit. However, they discover the new library is currently missing a critical capability that the library authors plan to add in the future. The developer adds a blocker to the topic with a brief description like "Waiting on library ABC to support XYZ". Now the team won't forget why this technical investment is stalled. If they revisit the topic in the future, they'll be able to quickly assess whether it can now move forward.
+
+## Step-by-step
+
+### Creating a blocker with a text description
+
+To create a blocker on a topic with a text description, visit the topic's page and click _New blocker_ toward the upper right corner, then provide a brief description and submit. You can optionally assign the blocker to a team member by picking their name from the dropdown.
+
+{% hint style="info" %}
+We recommend keeping the blocker description brief, around ten words or so, so that teammates can quickly understand the basic issue. If you want to provide more detail, remember, the blocker is also a topic thread. Try adding that additional detail in a comment.
+{% endhint %}
+
+### Linking to another topic as a blocker
+
+To create a blocker that links to another topic, visit the page of the topic that's blocked, click _New blocker_ toward the upper right corner, then in the input field type <mark style="color:orange;background-color:yellow;">`#`</mark> to bring up a search popup where you can search for the other topic by ID or text. You can optionally assign the blocker to a team member by picking their name from the dropdown.
+
+### Editing a blocker's description
+
+To edit a blocker's description, visit the topic's page and click the blocker's ellipsis menu.
+
+### Viewing, assigning, and resolving blockers
+
+Blockers are a special type of topic thread, so viewing, assigning, and resolving blockers work exactly the same as for topic threads.
+
+_Learn more:_ [threads.md](threads.md "mention")

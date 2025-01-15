@@ -1,0 +1,70 @@
+# Topic ownership
+
+## Overview
+
+Flat has two ways to capture who's working on a topic. You can designate a single topic **owner** to make that person clearly accountable for the work. Optionally, you can add additional **collaborators** so they know the topic's on their plate too.
+
+### Key concepts
+
+#### Topic owner
+
+A topic can have at most one **owner**. Think of the owner as the person who is accountable for ensuring the topic moves forward.
+
+The topic owner will:
+
+* Have their name appear prominently on the topic
+* See the topic listed in their [personal planner](../finding-and-organizing-topics/personal-planner.md)
+* Be notified about changes to the topic (if they've enabled [notifications](../account/notifications.md))
+
+#### Topic collaborators
+
+In addition to an owner, a topic can also have **collaborators**. Think of collaborators as team members who have some work responsibility on the topic but aren't primarily accountable for ensuring it moves forward.
+
+Topic collaborators will:
+
+* See the topic listed in their [personal planner](../finding-and-organizing-topics/personal-planner.md)
+* Be notified about changes to the topic (if they've enabled [notifications](../account/notifications.md))
+
+### Common patterns
+
+There are many ways to use topic owners and collaborators. Here are some examples. We recommend adopting a pattern that matches how your team likes to work. You can always change as your team evolves!
+
+#### No owner
+
+For some teams it can make sense not to bother designating topic owners or collaborators at all! Typically these are very small teams with just one person per job function. It's clear who's responsible for a topic based on its stage in the workspace. If this sounds like your team, go right ahead without any shame! You can start designating topic owners in the future as your team grows.
+
+#### Single changing owner
+
+In this pattern, you designate as the topic owner whomever is _currently_ responsible for moving the topic forward. The owner changes as the topic moves across the workspace. For example, on a software development team, while the feature is being designed, you would designate a designer as the owner of the topic. When the topic is ready for development, you would change the owner to a developer.
+
+This pattern tends to work well for teams of any size.
+
+#### Single persistent owner
+
+In this pattern, a topic is assigned a single owner, and the owner isn't changed as the topic moves through the workspace.
+
+This pattern can be useful for teams with multiple high-level project managers, each of whom is accountable for driving a subset of the team's topics. You can designate additional collaborators for the people who are responsible for work itself.
+
+#### Ad hoc
+
+In this pattern, just do what makes intuitive sense for your team! It's OK not to have a fully consistent, principled model. Go ahead and designate a single owner that changes as a topic progresses, but add the occasional collaborator when it makes sense and helps your team stay on top of their work.
+
+## Step-by-step
+
+### Changing the topic owner
+
+To change a topic's owner:
+
+* _While on the topic's page:_ Select a team member from the dropdown at the top of the page.
+* _While in the workspace:_ Use [_Quick edit_](selecting-and-editing-topics.md). Or, hover over the topic's card, click the ellipsis menu, and choose _Make me owner_ to quickly make yourself the owner.
+
+### Adding and removing collaborators
+
+To add or remove collaborators on a topic:
+
+* _While on the topic's page:_ Click the "plus" button to the right of the owner name at the top of the page. You can add as many collaborators as you like. To remove a collaborator, hover over their avatar, then click _Remove_.
+* _While in the workspace:_ Use [_Quick edit_](selecting-and-editing-topics.md).
+
+{% hint style="info" %}
+A topic must first have an owner before you can add collaborators.
+{% endhint %}

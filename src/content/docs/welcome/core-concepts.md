@@ -1,0 +1,45 @@
+# Core concepts
+
+Here's a rundown of the major terms and concepts you'll encounter in Flat and in this guide.
+
+## Organizations
+
+An **organization** is the shared home base where you and your **team members** collaborate on work. It's where you set app-wide settings like team member roles, integrations, and billing details.
+
+Your organization has **workspaces**, and your workspaces contain **topics**.
+
+## Topics
+
+A **topic** is just a piece of work to be done. Topics can capture something quick and simple like “Fix typo on the homepage” or something large and complex like a product launch.
+
+Large or small, every topic has its own **page** in Flat. It's like a lightweight hybrid of a real-time collaborative document, a status-tracking spreadsheet, and a chat room.
+
+<figure><img src="../.gitbook/assets/Topic Detail View.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+If you're coming to Flat from another tool, you might be familiar with a topic being called a "ticket", "issue", "work item", or "card".
+{% endhint %}
+
+You can think of a topic's page as _the place where that piece of work "lives"_, capturing and organizing everything about it, like:
+
+* _Ownership:_ You can capture both the **owner** — the person who's primarily accountable for the work — as well as additional **collaborators**.
+* _Labels:_ Attach **labels** to categorize your topics and make it easier for your teammates to find and understand them.
+* _Checklists:_ Use lightweight **checklists** to quickly break down a topic into **tasks**. They can also point to other topics to arrange topics into **flexible hierarchies** for projects, epics, milestones, themes, or sprints.
+* _Discussion:_ **Topic threads** let your team talk about a topic — asking questions, making requests, raising issues — without distracting each other all day, and without balls getting dropped. **Blockers** are special threads that show when a topic is stuck and can't move forward.
+
+There are more optional features you can enable for your organization too, like **due dates**, topic **sizes** and topic **priorities**.
+
+Every topic belongs to a **workspace**, where it's displayed as a **card**.
+
+## Workspaces
+
+A **workspace** brings together related topics that move through the same **workflow** stages. It can be as simple as _To do_ ⇒ _In progress_ ⇒ _Done_, or you can have as many stages as you like.
+
+<figure><img src="../.gitbook/assets/Workspace View.png" alt=""><figcaption></figcaption></figure>
+
+In this example, the workspace is being viewed as a board. Workspaces can be viewed in other ways too, like as a list or a calendar.
+
+A workspace also has an **archive** and a **trash**:
+
+* The **archive** is where to put topics after they're completed. They'll still show up in search results, so they're easy to find.
+* The **trash** is where to put topics that you don't plan to reference again, like those created by mistake. They won't appear in search results, but you can still open the trash to find them if needed.
