@@ -1,0 +1,90 @@
+---
+title: Flexible topic hierarchies
+---
+# Flexible topic hierarchies
+
+## Overview
+
+Flat lets you link topics together into hierarchies via a flexible parent-child relationship, great for breaking down work into smaller pieces or tracking how individual topics roll up to larger initiatives. There's no limit on the number of levels or what you choose to call them.
+
+{% hint style="info" %}
+If you're coming to Flat from another tool, you're probably familiar with terms like epics, milestones, themes, or projects. Read on to see how Flat supports all of these structures – and more – in a generic and lightweight model.
+{% endhint %}
+
+### Key concepts
+
+Flat takes a simple but powerful approach to modeling topic hierarchies and parent-child relationships:
+
+* Topic hierarchies are completely optional. Use them when they make sense for your team and as your practices evolve.
+* Parent topics and child topics are _not_ separate types of topics. Any topic can be the parent or child of any other, and you can remove or rearrange the relationship at any time.
+* A child topic is just a topic that's been linked as a [checklist](../topics/checklists.md) item on some other topic, the parent. From the parent's perspective, a child topic is just another item in a [checklist](../topics/checklists.md) to be completed, and the child's progress is depicted on the parent topic.
+* You can create parent-child linkages between topics in different workspaces. They don't have to be in the same workspace, though they can be if you want to.
+* Since a child topic can be linked from multiple checklists, that means it can have _multiple parents_, not just one, which is optional but useful in some [use cases](flexible-topic-hierarchies.md#use-cases).
+
+{% hint style="info" %}
+There's only one restriction: you can't create parent-child linkages that create a loop.
+{% endhint %}
+
+_Learn more:_ [checklists.md](../topics/checklists.md "mention")
+
+### Use cases
+
+Flat's approach to topic hierarchies is designed to let you quickly and flexibly model many common use cases. Below are a few examples.
+
+{% hint style="info" %}
+You're not restricted to just these use cases or terms. Feel free to experiment and discover what works for your team as your practices evolve.
+{% endhint %}
+
+#### Projects or "epics"
+
+Big cross-functional projects, sometimes called "epics", usually need to be broken down into smaller pieces to make them more manageable. The smaller pieces are typically worked on by different people and completed independently over time.
+
+To capture these sorts of projects in Flat, we recommend creating a separate workspace to house them. That's because large-scale project typically follow a [different workflow](../workspaces/workflow-stages.md) (like _Research_ ⇒ _Design_ ⇒ _Development_ ⇒ _Rollout_ ⇒ _Impact Review_ ⇒ _Done_) versus the work itself. A project is just a topic in that workspace that has child topics in your other workspaces.
+
+{% hint style="info" %}
+Sometimes a single topic, like a technical investment, supports or enables more than one epic. In that case, don't fret! Go ahead and make that topic a child of both epics.
+{% endhint %}
+
+#### Milestones or Initiatives
+
+A "milestone" or "initiative" is often described as a high-level business goal. Typically, achieving a milestone entails completing many projects.
+
+To model milestones, we recommend creating a separate workspace to house them. A milestone is just a topic in that workspace linking to child topics in your other workspaces. The child topics could themselves have their own children (e.g., see "epics" above).
+
+#### Sprints
+
+Some teams like to operate in one- or two-week time-boxed windows called "sprints". During a sprint, the team focuses on completing a prescribed set of work. Meantime, a team manager identifies and prepares the work to be prescribed for the next sprint or future sprints.
+
+To model sprints, we recommend creating a separate workspace to house them. That's because sprints typically follow a different workflow (like _Upcoming_ ⇒ _In Progress_ ⇒ _Retrospective_ ⇒ _Done_) versus the work itself. A sprint is just a topic in that workspace that has child topics in your other workspaces.
+
+## Step-by-step
+
+### Attaching a child topic
+
+To attach a child topic to a parent:
+
+* _While on the parent topic's page:_ Create a new checklist or click into an existing checklist to open the input box, then type <mark style="color:orange;background-color:yellow;">`#`</mark> to bring up a search popup where you can search for the child topic by ID or text.
+* _While on the child topic's page:_
+  * Click on the vertical ellipsis at the upper right corner, then click _Attach to parent_ to bring up a search popup where you can search for the parent topic by ID or text.
+  * If the child topic does not have any existing parent topics, you can bring up the same search popup by hovering over the space to the right of the child topic's workspace and ID (if enabled) at the top left and clicking the _+ Parent_ text that appears.
+
+### Detaching a child topic
+
+To detach a child topic from a parent, visit the parent topic's page, hover over the child topic in the checklist where it appears, click the vertical ellipsis button on the right, then click _Detach child topic_. The child topic itself will still exist, but it will no longer be a part of the parent's checklist.
+
+### Viewing progress of child topics
+
+If a topic has child topics, their progress is depicted on the parent topic, making it easy to quickly visualize how the parent topic as a whole is coming along:
+
+* _While on the parent topic's page:_ The child topics are items in a checklist, and their background is rendered as a progress bar.
+* _While in the workspace:_ The topic's card includes a set of thin progress bars, one for each of its in-flight child topics. (Completed child topics aren't displayed on the parent topic card.)
+
+The progress bar for each child topic reflects what [stage](../workspaces/workflow-stages.md) it's in in its own workspace.
+
+### Navigating from a parent topic to a child
+
+To navigate from a parent topic to a child, visit the parent topic's page, find the checklist with the child topic, and click on it.
+
+### Navigating from a child topic to a parent
+
+To navigate from a child topic to a parent, visit the child topic's page, then click the parent topic's title toward the upper left corner (to the right of the topic's ID).
