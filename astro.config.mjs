@@ -7,21 +7,56 @@ import markdoc from '@astrojs/markdoc';
 // https://astro.build/config
 export default defineConfig({
     integrations: [starlight({
-        title: 'Flat Docs',
+        title: 'Flat User Guide',
         social: {
-            github: 'https://github.com/flat-hq',
         },
         sidebar: [
+            // {
+            //     label: 'Guides',
+            //     items: [
+            //         // Each item here is one entry in the navigation menu.
+            //         { label: 'Example Guide', slug: 'guides/example' },
+            //     ],
+            // },
             {
-                label: 'Guides',
-                items: [
-                    // Each item here is one entry in the navigation menu.
-                    { label: 'Example Guide', slug: 'guides/example' },
-                ],
+                label: 'Welcome',
+                autogenerate: { directory: 'welcome' },
             },
             {
-                label: 'Reference',
-                autogenerate: { directory: 'reference' },
+                label: 'Organization setup',
+                autogenerate: { directory: 'setup' },
+            },
+            {
+                label: 'Account setup',
+                autogenerate: { directory: 'account' },
+            },
+            {
+                label: 'Workspaces',
+                autogenerate: { directory: 'workspaces' },
+            },
+            {
+                label: 'Topics',
+                autogenerate: { directory: 'topics' },
+            },
+            {
+                label: 'Comments and discussion',
+                autogenerate: { directory: 'discussion' },
+            },
+            {
+                label: 'Finding and organizing topics',
+                autogenerate: { directory: 'finding-and-organizing-topics' },
+            },
+            {
+                label: 'Integrations',
+                autogenerate: { directory: 'integrations' },
+            },
+            {
+                label: 'Developers',
+                autogenerate: { directory: 'developers' },
+            },
+            {
+                label: 'Miscellaneous',
+                autogenerate: { directory: 'misc' },
             },
         ],
 		}), markdoc()],
