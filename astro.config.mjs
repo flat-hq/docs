@@ -6,9 +6,11 @@ import markdoc from '@astrojs/markdoc';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://docs.flat.app',
+    // site: 'https://docs.flat.app',
+    site: 'https://flat-hq.github.io',
+    // base: 'my-repo',
     redirects: {
-      '/': 'welcome/introduction'
+    //   '/': 'welcome/introduction'
     },
     integrations: [starlight({
         title: 'Flat User Guide',
@@ -20,17 +22,9 @@ export default defineConfig({
         social: {
         },
         sidebar: [
-            // {
-            //     label: 'Test',
-            //     items: [
-            //         // Each item here is one entry in the navigation menu.
-            //         { label: 'Introduction', slug: 'index' },
-            //     ],
-            // },
             {
                 label: 'Welcome',
                 items: [
-                    // Each item here is one entry in the navigation menu.
                     { label: 'Introduction', slug: 'welcome/introduction' },
                     { label: 'Getting started', slug: 'welcome/getting-started' },
                     { label: 'Core concepts', slug: 'welcome/core-concepts' },
@@ -40,7 +34,6 @@ export default defineConfig({
             {
                 label: 'Organization setup',
                 items: [
-                    // Each item here is one entry in the navigation menu.
                     { label: 'Managing your organization', slug: 'setup/managing-your-organization' },
                     { label: 'Managing team members', slug: 'setup/managing-team-members' },
                     { label: 'Importing data', slug: 'setup/importing-data' },
