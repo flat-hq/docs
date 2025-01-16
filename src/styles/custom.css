@@ -1,0 +1,3 @@
+:root {
+    --sl-color-blue-low: hsl(var(--sl-hue-blue), 88%, 95%) !important;
+  }

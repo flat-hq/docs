@@ -19,6 +19,10 @@ export default defineConfig({
           dark: './src/assets/flat-logo-dark.svg',
           replacesTitle: true,
         },
+        customCss: [
+          // Relative path to your custom CSS file
+          './src/styles/custom.css',
+        ],
         social: {
         },
         sidebar: [
@@ -41,23 +45,58 @@ export default defineConfig({
             },
             {
                 label: 'Account setup',
-                autogenerate: { directory: 'account' },
+                items: [
+                    { label: 'Personal profile', slug: 'account/personal-profile' },
+                    { label: 'Appearance', slug: 'account/appearance' },
+                    { label: 'Notifications', slug: 'account/notifications' },
+                ],
             },
             {
                 label: 'Workspaces',
-                autogenerate: { directory: 'workspaces' },
+                items: [
+                    { label: 'Managing workspaces', slug: 'workspaces/managing-workspaces' },
+                    { label: 'Workspace visibility', slug: 'workspaces/workspace-visibility' },
+                    { label: 'Workflow stages', slug: 'workspaces/workflow-stages' },
+                    { label: 'Workspace views', slug: 'workspaces/workspace-views' },
+                    { label: 'Archive', slug: 'workspaces/archive' },
+                ],
             },
             {
                 label: 'Topics',
-                autogenerate: { directory: 'topics' },
+                items: [
+                    { label: 'Creating topics', slug: 'topics/creating' },
+                    { label: 'Selecting and editing topics', slug: 'topics/selecting-and-editing-topics' },
+                    { label: 'Moving topics', slug: 'topics/moving-topics' },
+                    { label: 'Topic ownership', slug: 'topics/ownership' },
+                    { label: 'Labels', slug: 'topics/labels' },
+                    { label: 'Due dates', slug: 'topics/due-dates' },
+                    { label: 'Topic sizing', slug: 'topics/sizing' },
+                    { label: 'Topic prioritization', slug: 'topics/prioritization' },
+                    { label: 'Topic descriptions', slug: 'topics/topic-descriptions' },
+                    { label: 'Checklists', slug: 'topics/checklists' },
+                    { label: 'Attachments', slug: 'topics/attachments' },
+                    { label: 'Code', slug: 'topics/code' },
+                    { label: 'Archiving and trashing', slug: 'topics/archiving-and-trashing' },
+                    { label: 'Change history', slug: 'topics/change-history' },
+                    { label: 'Subscribing to notifications', slug: 'topics/subscribing-to-notifications' },
+                ]
             },
             {
                 label: 'Comments and discussion',
-                autogenerate: { directory: 'discussion' },
+                items: [
+                    { label: 'Topic threads', slug: 'discussion/threads' },
+                    { label: 'Blockers', slug: 'discussion/blockers' },
+                ]
             },
             {
                 label: 'Finding and organizing topics',
-                autogenerate: { directory: 'finding-and-organizing-topics' },
+                items: [
+                    { label: 'Personal planner', slug: 'finding-and-organizing-topics/personal-planner' },
+                    { label: 'Threads view', slug: 'finding-and-organizing-topics/threads-view' },
+                    { label: 'Workspace filter', slug: 'finding-and-organizing-topics/workspace-filter' },
+                    { label: 'Search and history', slug: 'finding-and-organizing-topics/search-and-history' },
+                    { label: 'Flexible topic hierarchies', slug: 'finding-and-organizing-topics/flexible-topic-hierarchies' },
+                ]
             },
             {
                 label: 'Integrations',
@@ -69,7 +108,11 @@ export default defineConfig({
             },
             {
                 label: 'Miscellaneous',
-                autogenerate: { directory: 'misc' },
+                items: [
+                    { label: 'Security', slug: 'misc/security' },
+                    { label: 'FAQ', slug: 'misc/faq' },
+                    { label: 'Feedback', slug: 'misc/feedback' },
+                ]
             },
         ],
 		}), markdoc()],
