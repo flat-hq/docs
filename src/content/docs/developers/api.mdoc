@@ -85,7 +85,6 @@ Below is an example JSON body requesting a topic's description and title, using 
 
 Here's an example of a complete request that retrieves info about all accessible topics in your organization.
 
-{% code fullWidth="false" %}
 ```bash
 curl --request POST \
   --url https://api.flat.app/v1/beta/graphql \
@@ -93,7 +92,6 @@ curl --request POST \
   --header "Authorization: Bearer YOUR_API_TOKEN" \
   --data '{"query":"query { topics { nodes { id description title owner { id displayName } } } }"}'
 ```
-{% endcode %}
 
 ### Response
 
