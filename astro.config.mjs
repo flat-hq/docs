@@ -8,7 +8,7 @@ import markdoc from '@astrojs/markdoc';
 export default defineConfig({
     // site: 'https://docs.flat.app',
     site: 'https://flat-hq.github.io',
-    // base: 'my-repo',
+    base: 'docs',
     redirects: {
     //   '/': 'welcome/introduction'
     },
