@@ -6,8 +6,14 @@ import markdoc from '@astrojs/markdoc';
 
 // https://astro.build/config
 export default defineConfig({
+    site: 'https://docs.flat.app',
     integrations: [starlight({
         title: 'Flat User Guide',
+        logo: {
+          light: './src/assets/flat-logo.svg',
+          dark: './src/assets/flat-logo-dark.svg',
+          replacesTitle: true,
+        },
         social: {
         },
         sidebar: [
