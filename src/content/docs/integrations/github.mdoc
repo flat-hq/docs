@@ -17,9 +17,9 @@ Get started in three steps:
 2. **Link a pull request to a topic:** Visit a topic's page, scroll down to the _Code_ section, and copy the suggested branch name. Any pull requests using that branch name will get linked to the topic. You can also use custom branch names; see [code.md](../topics/code.md "mention").
 3. **Optionally, show topic IDs:** Visit [_Personal Settings | Appearance_](https://go.flat.app/settings/appearance) and enable _Show topic IDs_ to always show a topic's ID next to its titl&#x65;_._ The suggested branch name incorporates the topic ID regardless of whether you enable this setting. However, developers usually prefer to see explicit topic IDs for extra clarity and easier reference.
 
-{% hint style="info" %}
+{% aside %}
 The _Software development_ option is only displayed in the _Workspace setup_ dialog after you've installed Flat's GitHub app.
-{% /hint %}
+{% /aside %}
 
 ### Key concepts
 
@@ -35,11 +35,11 @@ The GitHub integration works by automatically linking pull requests to topics ba
 
 You can link as many pull requests as you like to the same topic.
 
-{% hint style="info" %}
+{% aside %}
 Some teams prefer a model where a topic can have only one pull request. If the developer needs to make additional code changes, they make a new topic first.
 
 However, that can easily lead to an overwhelming number of topics, increasing clutter and hindering collaboration. We recommend using multiple pull requests per topic.
-{% /hint %}
+{% /aside %}
 
 #### Automatic CI/CD detection
 
@@ -47,9 +47,9 @@ If your team has connected a CI/CD tool to your GitHub repository for code quali
 
 For many common CI/CD tools, Flat recognizes and displays additional details. For example, if you use [Netlify](https://www.netlify.com/), Flat will display a link to the deploy preview right on the topic's card, or a link to the build log if the build fails.
 
-{% hint style="info" %}
+{% aside %}
 We're constantly adding additional CI/CD tools that Flat automatically recognizes and displays. [Contact us](../welcome/help-and-support.md) if you're using one that isn't currently recognized.
-{% /hint %}
+{% /aside %}
 
 ## Step-by-step
 
@@ -59,13 +59,13 @@ To set up the GitHub integration, visit [_Admin Settings | Integrations_](https:
 
 The app can be installed on a GitHub user account or a GitHub organization account. If you have access to more than one GitHub account, take a moment to ensure you pick the right one on GitHub's OAuth screen. If you have repositories spanning multiple GitHub accounts, [contact us](../welcome/help-and-support.md).
 
-{% hint style="warning" %}
+{% aside type="caution" %}
 Flat's GitHub app requests only a limited set of permissions. It does **not** have permission to read or modify your git repository contents.
-{% /hint %}
+{% /aside %}
 
-{% hint style="info" %}
+{% aside %}
 The _Admin Settings_ section is only visible to team members with the **Admin** role.
-{% /hint %}
+{% /aside %}
 
 ### Configuring workspaces for software development
 
