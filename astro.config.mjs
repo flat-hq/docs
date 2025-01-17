@@ -8,7 +8,7 @@ import markdoc from '@astrojs/markdoc';
 export default defineConfig({
     site: 'https://docs.flat.app',
     redirects: {
-      '/': 'welcome/introduction/'
+      '/': '/welcome/introduction/'
     },
     integrations: [starlight({
         title: 'Flat User Guide',
