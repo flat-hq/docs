@@ -6,9 +6,8 @@ import markdoc from '@astrojs/markdoc';
 
 // https://astro.build/config
 export default defineConfig({
-    // site: 'https://docs.flat.app',
-    site: 'https://flat-hq.github.io',
-    base: 'docs',
+    site: 'https://docs.flat.app',
+    // base: 'docs',
     redirects: {
     //   '/': 'welcome/introduction'
     },
