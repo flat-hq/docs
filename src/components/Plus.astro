@@ -1,0 +1,24 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import PlusButton from '../assets/plus_button.svg';
+---
+
+<span class="icon"><img src={PlusButton.src} alt=""></span>
+
+<style>
+    .icon {
+        --color-brand-cta: 15,106,246;
+        color: white;
+        background-color: rgb(var(--color-brand-cta));
+        border: 1px solid rgb(var(--color-brand-cta));
+        border-radius: 4px;
+        padding: 2px;
+        text-align: center;
+    }
+
+    img {
+        width: 20px;
+        display: inline-block !important;
+        vertical-align: text-bottom;
+    }
+</style>
