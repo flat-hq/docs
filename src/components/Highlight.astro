@@ -1,0 +1,22 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+---
+
+<mark class="highlight"><slot/></mark>
+
+<style>
+    mark {
+        color:rgb(249 115 22);
+        /* color: white; */
+        /* font-weight: bold; */
+        background-color: black;
+    }
+
+    .highlight :global(code) {
+        background-color: black;
+        font-size: large;
+        background-color: rgb(253 249 232);
+        border: 1px solid lightgray;
+        border-radius: 4px;
+    }
+</style>

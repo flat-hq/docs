@@ -10,6 +10,11 @@ export default defineMarkdocConfig({
       attributes: {
       },
     },
+    highlight: {
+      render: component('./src/components/Highlight.astro'),
+      attributes: {
+      },
+    },
     image: {
       render: component('./src/components/Image.astro'),
       attributes: {
