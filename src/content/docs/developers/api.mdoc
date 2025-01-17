@@ -15,7 +15,7 @@ The API is currently in beta and undergoing rapid development. We don't expect t
 
 Flat's GraphQL API endpoint is:
 
-```url
+```
 https://api.flat.app/v1/beta/graphql
 ```
 
@@ -176,7 +176,19 @@ query {
 
 Lists of objects are returned in order of creation time. The example above would retrieve the oldest topics first. To get the newest objects first, you can paginate backwards instead of forwards using the corresponding arguments and fields:
 
-<table><thead><tr><th width="206">Pagination direction</th><th width="184">Arguments</th><th>Fields</th></tr></thead><tbody><tr><td>Forwards</td><td><code>first</code>, <code>after</code></td><td><code>endCursor</code>, <code>hasNextPage</code></td></tr><tr><td>Backwards</td><td><code>last</code>, <code>before</code></td><td><code>startCursor</code>, <code>hasPreviousPage</code></td></tr></tbody></table>
+{% table %}
+* Pagination direction
+* Arguments
+* Fields
+---
+* Forwards
+* `first`, `after`
+* `endCursor`, `hasNextPage`
+---
+* Backwards
+* `last`, `before`
+* `startCursor`, `hasPreviousPage`
+{% /table %}
 
 ### Filtering
 
