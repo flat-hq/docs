@@ -7,9 +7,8 @@ import markdoc from '@astrojs/markdoc';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://docs.flat.app',
-    // base: 'docs',
     redirects: {
-    //   '/': 'welcome/introduction'
+      '/': 'welcome/introduction'
     },
     integrations: [starlight({
         title: 'Flat User Guide',
