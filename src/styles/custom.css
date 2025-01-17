@@ -1,4 +1,4 @@
 :root {
-    --sl-color-blue-low: hsl(var(--sl-hue-blue), 88%, 95%) !important;
-    --sl-color-purple-low: #f8f8ff !important;
+    --sl-color-blue-low: hsl(var(--sl-hue-blue), 88%, 98%) !important;
+    --sl-color-purple-low: hsl(var(--sl-hue-blue), 88%, 98%) !important;
   }
