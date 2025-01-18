@@ -15,7 +15,7 @@ Flat takes a simple but powerful approach to modeling topic hierarchies and pare
 
 * Topic hierarchies are completely optional. Use them when they make sense for your team and as your practices evolve.
 * Parent topics and child topics are _not_ separate types of topics. Any topic can be the parent or child of any other, and you can remove or rearrange the relationship at any time.
-* A child topic is just a topic that's been linked as a [checklist](../topics/checklists) item on some other topic, the parent. From the parent's perspective, a child topic is just another item in a [checklist](../topics/checklists) to be completed, and the child's progress is depicted on the parent topic.
+* A child topic is just a topic that's been linked as a [checklist](/topics/checklists) item on some other topic, the parent. From the parent's perspective, a child topic is just another item in a [checklist](/topics/checklists) to be completed, and the child's progress is depicted on the parent topic.
 * You can create parent-child linkages between topics in different workspaces. They don't have to be in the same workspace, though they can be if you want to.
 * Since a child topic can be linked from multiple checklists, that means it can have _multiple parents_, not just one, which is optional but useful in some [use cases](flexible-topic-hierarchies#use-cases).
 
@@ -23,7 +23,7 @@ Flat takes a simple but powerful approach to modeling topic hierarchies and pare
 There's only one restriction: you can't create parent-child linkages that create a loop.
 {% /aside %}
 
-_Learn more:_ [Checklists](../topics/checklists)
+_Learn more:_ [Checklists](/topics/checklists)
 
 ### Use cases
 
@@ -37,7 +37,7 @@ You're not restricted to just these use cases or terms. Feel free to experiment 
 
 Big cross-functional projects, sometimes called "epics", usually need to be broken down into smaller pieces to make them more manageable. The smaller pieces are typically worked on by different people and completed independently over time.
 
-To capture these sorts of projects in Flat, we recommend creating a separate workspace to house them. That's because large-scale project typically follow a [different workflow](../workspaces/workflow-stages) (like _Research_ ⇒ _Design_ ⇒ _Development_ ⇒ _Rollout_ ⇒ _Impact Review_ ⇒ _Done_) versus the work itself. A project is just a topic in that workspace that has child topics in your other workspaces.
+To capture these sorts of projects in Flat, we recommend creating a separate workspace to house them. That's because large-scale project typically follow a [different workflow](/workspaces/workflow-stages) (like _Research_ ⇒ _Design_ ⇒ _Development_ ⇒ _Rollout_ ⇒ _Impact Review_ ⇒ _Done_) versus the work itself. A project is just a topic in that workspace that has child topics in your other workspaces.
 
 {% aside %}
 Sometimes a single topic, like a technical investment, supports or enables more than one epic. In that case, don't fret! Go ahead and make that topic a child of both epics.
@@ -77,7 +77,7 @@ If a topic has child topics, their progress is depicted on the parent topic, mak
 * _While on the parent topic's page:_ The child topics are items in a checklist, and their background is rendered as a progress bar.
 * _While in the workspace:_ The topic's card includes a set of thin progress bars, one for each of its in-flight child topics. (Completed child topics aren't displayed on the parent topic card.)
 
-The progress bar for each child topic reflects what [stage](../workspaces/workflow-stages) it's in in its own workspace.
+The progress bar for each child topic reflects what [stage](/workspaces/workflow-stages) it's in in its own workspace.
 
 ### Navigating from a parent topic to a child
 
