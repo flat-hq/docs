@@ -1,4 +1,4 @@
-:root {
+:root[data-theme='light'] {
     --sl-color-blue-low: hsl(var(--sl-hue-blue), 88%, 98%) !important;
     --sl-color-purple-low: hsl(var(--sl-hue-blue), 88%, 98%) !important;
   }
